@@ -66,3 +66,28 @@ footer {
   padding: 20px;
   background: #eee;
 }
+.readings {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.readings h2 {
+  color: #8e44ad;
+  text-align: center;
+}
+
+.reading-option {
+  margin-bottom: 20px;
+}
+
+.reading-option h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.reading-option p {
+  margin: 0;
+}
