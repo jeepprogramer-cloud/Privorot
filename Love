@@ -1,0 +1,220 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Любовный приворот и предсказания от Нели</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #c71585;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #ffe4e1;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background: #c71585;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #a3126d;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h3 {
+      color: #c71585;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .review {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    .review img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #c71585;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .contacts a {
+      display: inline-flex;
+      align-items: center;
+      margin: 0.5rem 1rem 0.5rem 0;
+      color: #c71585;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contacts a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+    .contacts a:hover {
+      text-decoration: underline;
+    }
+    .messenger-floating {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .messenger-floating a img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .messenger-floating a img:hover {
+      transform: scale(1.1);
+    }
+    .profile {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    .profile img {
+      width: 250px;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      margin-bottom: 1rem;
+    }
+    .profile h3 {
+      color: #c71585;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Маг Неля — Любовный приворот и предсказания будущего</h1>
+  </header>
+  <div class="container">
+    <div class="profile">
+      <img src="nelya-photo.jpg" alt="Гадалка Неля">
+      <h3>Гадалка Неля</h3>
+      <p>+38 (097) 510-10-01</p>
+    </div><section class="hero">
+  <h2>Верну любимого и покажу будущее</h2>
+  <p>Профессиональная помощь в любви и ясное видение вашего пути. Работаю лично и анонимно.</p>
+  <button class="btn" onclick="window.location.href='https://t.me/ваш_бот_или_контакт'">Связаться сейчас</button>
+</section>
+
+<section class="section">
+  <h3>Почему выбирают меня?</h3>
+  <ul>
+    <li>Более 22 лет опыта</li>
+    <li>Реальные отзывы с фото</li>
+    <li>100% конфиденциальность</li>
+    <li>Работаю с любыми ситуациями</li>
+    <li>Предсказания на картах Таро</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h3>Отзывы клиентов</h3>
+  <div class="reviews">
+    <div class="review">
+      <img src="foto1.jpg" alt="Фото клиента" />
+      <p>Неля помогла восстановить любовь и веру в отношения. Всё получилось именно так, как она и сказала!</p>
+    </div>
+    <div class="review">
+      <img src="foto2.jpg" alt="Фото клиента" />
+      <p>Очень сильная энергетика. После обряда отношения наладились, а на раскладе я увидела всё, что происходило на самом деле!</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Как я работаю</h3>
+  <p>После обращения я провожу диагностику вашей ситуации. Далее подбираю наиболее сильный обряд. Результаты — индивидуальны и зависят от вашей истории.</p>
+</section>
+
+<section class="section">
+  <h3>Предсказания будущего</h3>
+  <p>Я использую карты Таро, чтобы точно предсказать ваше будущее. Помогу понять, что вас ждёт в любви, семье, карьере и судьбе.</p>
+  <ul>
+    <li>Карты Таро — глубокое погружение в суть ситуации</li>
+    <li>Ответы на важные вопросы</li>
+    <li>Видение будущего с точностью и деталями</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h3>Связаться со мной</h3>
+  <div class="contacts">
+    <p>Вы можете написать в любой удобный мессенджер:</p>
+    <a href="https://t.me/+380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram">Telegram
+    </a>
+    <a href="https://wa.me/380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">WhatsApp
+    </a>
+    <a href="viber://chat?number=+380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/viber.svg" alt="Viber">Viber
+    </a>
+    <p>Или позвоните/напишите по номеру: <strong>+38 (097) 510-10-01</strong></p>
+  </div>
+</section>
+
+  </div>  <div class="messenger-floating">
+    <a href="https://t.me/+380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram">
+    </a>
+    <a href="https://wa.me/380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+    </a>
+    <a href="viber://chat?number=+380975101001" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/viber.svg" alt="Viber">
+    </a>
+  </div>  <footer>
+    <p>&copy; 2025 Маг Неля. Все права защищены.</p>
+  </footer>
+</body>
+</html>
