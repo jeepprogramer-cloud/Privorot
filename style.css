@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #f9f9f9;
+}
+
+header {
+  background: #8e44ad;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.phone {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contacts a {
+  margin: 0 10px;
+  color: #ffe;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #8e44ad;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.testimonials .review {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
